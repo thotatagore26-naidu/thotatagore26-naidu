@@ -12,7 +12,6 @@ Multi-agent LLM systems, causal inference on real data, RAG apps that don't hall
 - 👯 **Looking to collaborate on:** anything where AI agents talk to each other and somehow get real work done
 - 🌱 **Currently learning:** how to make RAG systems that admit "I don't know" instead of confidently making things up
 - 💬 **Ask me about:** why my multi-agent system has a built-in critic that roasts its own code (in a good way)
-- ⚡ **Fun fact:** I built a causal inference pipeline that proved a "successful" sales promotion actually had *zero* real effect — the naive analysis was off by 290 units/week
 
 ---
 
@@ -28,41 +27,38 @@ Multi-agent LLM systems, causal inference on real data, RAG apps that don't hall
   <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white">
   <img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white">
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white">
-  <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black">
-  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white">
 </p>
 
 ---
 
-### 📌 Pinned Projects
+## 🖥 My Generative AI & Agent Projects
 
-#### 🤖 [Multi-Agent Data Analysis Assistant](https://github.com/thotatagore26-naidu/multi-agent-data-analyst)
-A LangGraph-based multi-agent system that answers plain-English questions about any CSV dataset. **Five specialized agents** cooperate, with a **self-correcting Critic Agent** that catches and retries its own execution errors before escalating — resolving errors within 3 refinement attempts.
-`Python` `LangGraph` `Google Gemini API` `Pandas`
+| 🤖 [Multi-Agent Data Analysis Assistant](https://github.com/thotatagore26-naidu/multi-agent-data-analyst) |
+| --- |
+| [![Multi-Agent Data Analyst](images/banner_multiagent.png)](https://github.com/thotatagore26-naidu/multi-agent-data-analyst) |
+| A LangGraph-based multi-agent system that answers plain-English questions about any CSV dataset. Five specialized agents cooperate, with a self-correcting Critic Agent that resolves execution errors within 3 refinement attempts before escalating. |
 
-#### 📊 [Did the Promotion Actually Cause a Sales Increase?](https://github.com/thotatagore26-naidu/rossmann-promo-causal-inference)
-A causal inference case study using **Difference-in-Differences** on the Rossmann Store Sales dataset (1,115 stores, ~1M records). A naive before/after comparison suggested promotions boosted sales by **~227 units/week** — the real causal effect was **statistically insignificant (DiD ≈ −63, p = 0.84)**. Includes a placebo test to confirm the method isn't just picking up noise.
-`Python` `Pandas` `Statsmodels` `Causal Inference`
+| 💊 [Drug Interaction Checker](https://github.com/thotatagore26-naidu/drug-interaction-checker) |
+| --- |
+| [![Drug Interaction Checker](images/banner_rag.png)](https://github.com/thotatagore26-naidu/drug-interaction-checker) |
+| A RAG system that checks drug interactions against real FDA label data, built to minimize hallucination risk in a safety-adjacent domain. Evaluated at 0.76 faithfulness and 0.79 answer relevancy on a held-out test set. |
 
-#### 💊 [Drug Interaction Checker (RAG System)](https://github.com/thotatagore26-naidu/drug-interaction-checker)
-A Retrieval-Augmented Generation system that checks drug interactions against real FDA label data, built to minimize hallucination risk in a safety-adjacent domain. Indexed 50 medications in ChromaDB with local sentence-transformer embeddings — evaluated at **0.76 faithfulness** and **0.79 answer relevancy** on a held-out test set.
-`Python` `LangChain` `ChromaDB` `Sentence-Transformers` `Ragas`
+---
 
-#### ✈️ [Predictive Maintenance: Aircraft Engine RUL](https://github.com/thotatagore26-naidu/predictive-maintenance-rul)
-An ensemble ML system predicting remaining useful life of aircraft engines on the NASA C-MAPSS benchmark. Tuned XGBoost, LightGBM, and CatBoost with Optuna directly against the domain-specific **PHM08 metric**, improving XGBoost's score by **~60%** over its default baseline.
-`Python` `XGBoost` `LightGBM` `CatBoost` `Optuna`
+## 🖥 My Causal Inference & ML Projects
+
+| 📊 [Did the Promotion Actually Cause a Sales Increase?](https://github.com/thotatagore26-naidu/rossmann-promo-causal-inference) | ✈️ [Predictive Maintenance: Aircraft Engine RUL](https://github.com/thotatagore26-naidu/predictive-maintenance-rul) |
+| --- | --- |
+| [![Causal Inference](images/banner_causal.png)](https://github.com/thotatagore26-naidu/rossmann-promo-causal-inference) | [![Predictive Maintenance](images/banner_predictive.png)](https://github.com/thotatagore26-naidu/predictive-maintenance-rul) |
+| Difference-in-Differences on 1,115 Rossmann stores. A naive before/after comparison suggested +227 units/week — the real causal effect was statistically insignificant (DiD ≈ −63, p = 0.84). | Ensemble ML (XGBoost, LightGBM, CatBoost) tuned with Optuna against the domain-specific PHM08 metric, improving XGBoost's score by ~60% over its default baseline. |
 
 ---
 
 ### 📊 GitHub Stats
 
 <p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=thotatagore26-naidu&theme=dark&hide_border=false&include_all_commits=false&count_private=false" height="165"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=thotatagore26-naidu&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact" height="165"/>
-</p>
-
-<p align="left">
-  <img src="https://streak-stats.demolab.com/?user=thotatagore26-naidu&theme=dark&hide_border=false" height="165">
+  <img src="https://github-readme-stats.vercel.app/api?username=thotatagore26-naidu&theme=dark&hide_border=false" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=thotatagore26-naidu&theme=dark&hide_border=false&layout=compact" height="165"/>
 </p>
 
 ---
