@@ -35,12 +35,12 @@ Multi-agent LLM systems, causal inference on real data, RAG apps that don't hall
 
 | 🤖 [Multi-Agent Data Analysis Assistant](https://github.com/thotatagore26-naidu/multi-agent-data-analyst) |
 | --- |
-| [![Multi-Agent Data Analyst](images/banner_multiagent.png)](https://github.com/thotatagore26-naidu/multi-agent-data-analyst) |
+| [![Multi-Agent Data Analyst](https://raw.githubusercontent.com/thotatagore26-naidu/thotatagore26-naidu/main/images/banner_multiagent.png)](https://github.com/thotatagore26-naidu/multi-agent-data-analyst) |
 | A LangGraph-based multi-agent system that answers plain-English questions about any CSV dataset. Five specialized agents cooperate, with a self-correcting Critic Agent that resolves execution errors within 3 refinement attempts before escalating. |
 
 | 💊 [Drug Interaction Checker](https://github.com/thotatagore26-naidu/drug-interaction-checker) |
 | --- |
-| [![Drug Interaction Checker](images/banner_rag.png)](https://github.com/thotatagore26-naidu/drug-interaction-checker) |
+| [![Drug Interaction Checker](https://raw.githubusercontent.com/thotatagore26-naidu/thotatagore26-naidu/main/images/banner_rag.png)](https://github.com/thotatagore26-naidu/drug-interaction-checker) |
 | A RAG system that checks drug interactions against real FDA label data, built to minimize hallucination risk in a safety-adjacent domain. Evaluated at 0.76 faithfulness and 0.79 answer relevancy on a held-out test set. |
 
 ---
@@ -49,7 +49,7 @@ Multi-agent LLM systems, causal inference on real data, RAG apps that don't hall
 
 | 📊 [Did the Promotion Actually Cause a Sales Increase?](https://github.com/thotatagore26-naidu/rossmann-promo-causal-inference) | ✈️ [Predictive Maintenance: Aircraft Engine RUL](https://github.com/thotatagore26-naidu/predictive-maintenance-rul) |
 | --- | --- |
-| [![Causal Inference](images/banner_causal.png)](https://github.com/thotatagore26-naidu/rossmann-promo-causal-inference) | [![Predictive Maintenance](images/banner_predictive.png)](https://github.com/thotatagore26-naidu/predictive-maintenance-rul) |
+| [![Causal Inference](https://raw.githubusercontent.com/thotatagore26-naidu/thotatagore26-naidu/main/images/banner_causal.png)](https://github.com/thotatagore26-naidu/rossmann-promo-causal-inference) | [![Predictive Maintenance](https://raw.githubusercontent.com/thotatagore26-naidu/thotatagore26-naidu/main/images/banner_predictive.png)](https://github.com/thotatagore26-naidu/predictive-maintenance-rul) |
 | Difference-in-Differences on 1,115 Rossmann stores. A naive before/after comparison suggested +227 units/week — the real causal effect was statistically insignificant (DiD ≈ −63, p = 0.84). | Ensemble ML (XGBoost, LightGBM, CatBoost) tuned with Optuna against the domain-specific PHM08 metric, improving XGBoost's score by ~60% over its default baseline. |
 
 ---
