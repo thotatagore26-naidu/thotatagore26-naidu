@@ -54,16 +54,6 @@ Multi-agent LLM systems, causal inference on real data, RAG apps that don't hall
 
 ---
 
-### 📊 GitHub Stats
-
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=thotatagore26-naidu&theme=dark&hide_border=false" height="165"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=thotatagore26-naidu&theme=dark&hide_border=false&layout=compact" height="165"/>
-</p>
-
----
----
-
 ### 📫 Reach me
 
 📧 thota.tagore26@gmail.com &nbsp;•&nbsp; 🖇 [linkedin.com/in/tagore-thotakura](https://linkedin.com/in/tagore-thotakura)
