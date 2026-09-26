@@ -1,59 +1,35 @@
-<h1 align="center">Hi 👋, I'm Tagore</h1>
-<h3 align="center">M.Sc. AI & Data Science student who builds things that actually work</h3>
+# Tagore Thotakura
 
-<p align="center">
-  <a href="https://linkedin.com/in/tagore-thotakura"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
-  <a href="mailto:thota.tagore26@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
-</p>
+**AI Engineering & Data Science | M.Sc. student**
 
-Multi-agent LLM systems, causal inference on real data, RAG apps that don't hallucinate (mostly), and ML models that predict when jet engines get cranky.
+[Portfolio](https://thotatagore26-naidu.github.io/) · [LinkedIn](https://www.linkedin.com/in/tagore-thotakura) · [Email](mailto:thota.tagore26@gmail.com)
 
-- 🔭 **Currently working on:** teaching jet engines to tell me when they're tired (predictive maintenance with ensemble ML)
-- 👯 **Looking to collaborate on:** anything where AI agents talk to each other and somehow get real work done
-- 🌱 **Currently learning:** how to make RAG systems that admit "I don't know" instead of confidently making things up
-- 💬 **Ask me about:** why my multi-agent system has a built-in critic that roasts its own code (in a good way)
+I build AI agents, retrieval-augmented generation systems, and machine learning models, with a focus on evaluation and practical applications.
 
----
+**Seeking AI/ML and Data Science internships in Germany.** Currently studying my second semester at the University of South Bohemia in České Budějovice, Czechia, after completing my first semester at Technische Hochschule Deggendorf (DIT), Germany.
 
-### 🛠 Tech Stack
+## Selected projects
 
-<p align="left">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=TensorFlow&logoColor=white">
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white">
-  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white">
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white">
-  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white">
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white">
-  <img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white">
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white">
-</p>
+### AI agents & retrieval-augmented generation
 
----
+- **[Multi-Agent Data Analysis Assistant](https://github.com/thotatagore26-naidu/multi-agent-data-analyst)** — A LangGraph workflow with five specialized agents for natural-language CSV analysis. Includes a critic loop with up to three refinement attempts and a Streamlit interface. **Python · LangGraph · Streamlit**
+- **[Drug Interaction Checker](https://github.com/thotatagore26-naidu/drug-interaction-checker)** — A research prototype that retrieves FDA label information and generates source-grounded answers. Reported Ragas evaluation: 0.76 faithfulness and 0.79 answer relevancy. Not clinically validated. **LangChain · ChromaDB · Ragas**
 
-## 🖥 My Generative AI & Agent Projects
+### Machine learning & causal inference
 
-| 🤖 [Multi-Agent Data Analysis Assistant](https://github.com/thotatagore26-naidu/multi-agent-data-analyst) |
-| --- |
-| [![Multi-Agent Data Analyst](https://raw.githubusercontent.com/thotatagore26-naidu/thotatagore26-naidu/main/banner_multiagent.png)](https://github.com/thotatagore26-naidu/multi-agent-data-analyst) |
-| A LangGraph-based multi-agent system that answers plain-English questions about any CSV dataset. Five specialized agents cooperate, with a self-correcting Critic Agent that resolves execution errors within 3 refinement attempts before escalating. |
+- **[Aircraft Engine Remaining Useful Life](https://github.com/thotatagore26-naidu/predictive-maintenance-rul)** — Predicting engine remaining useful life on NASA C-MAPSS using gradient-boosted models and Optuna. Tuned XGBoost improved the PHM08 score by approximately 60% over its default baseline. **XGBoost · LightGBM · CatBoost · Optuna**
+- **[Rossmann Promotion Causal Inference](https://github.com/thotatagore26-naidu/rossmann-promo-causal-inference)** — A Difference-in-Differences study of promotion effects, including parallel-trends checks and placebo testing. Examines why before-and-after comparisons can give misleading conclusions. **Python · Pandas · Statsmodels**
 
-| 💊 [Drug Interaction Checker](https://github.com/thotatagore26-naidu/drug-interaction-checker) |
-| --- |
-| [![Drug Interaction Checker](https://raw.githubusercontent.com/thotatagore26-naidu/thotatagore26-naidu/main/banner_rag.png)](https://github.com/thotatagore26-naidu/drug-interaction-checker) |
-| A RAG system that checks drug interactions against real FDA label data, built to minimize hallucination risk in a safety-adjacent domain. Evaluated at 0.76 faithfulness and 0.79 answer relevancy on a held-out test set. |
+## Skills
 
----
+- **Programming & data:** Python, SQL, Pandas, NumPy, Matplotlib, Seaborn
+- **AI & machine learning:** LangGraph, LangChain, RAG, ChromaDB, Scikit-learn, TensorFlow/Keras, XGBoost
+- **Tools:** Git, Streamlit, Jupyter, Linux
 
-## 🖥 My Causal Inference & ML Projects
+## Background
 
-| 📊 [Did the Promotion Actually Cause a Sales Increase?](https://github.com/thotatagore26-naidu/rossmann-promo-causal-inference) | ✈️ [Predictive Maintenance: Aircraft Engine RUL](https://github.com/thotatagore26-naidu/predictive-maintenance-rul) |
-| --- | --- |
-| [![Causal Inference](https://raw.githubusercontent.com/thotatagore26-naidu/thotatagore26-naidu/main/banner_causal.png)](https://github.com/thotatagore26-naidu/rossmann-promo-causal-inference) | [![Predictive Maintenance](https://raw.githubusercontent.com/thotatagore26-naidu/thotatagore26-naidu/main/banner_predictive.png)](https://github.com/thotatagore26-naidu/predictive-maintenance-rul) |
-| Difference-in-Differences on 1,115 Rossmann stores. A naive before/after comparison suggested +227 units/week — the real causal effect was statistically insignificant (DiD ≈ −63, p = 0.84). | Ensemble ML (XGBoost, LightGBM, CatBoost) tuned with Optuna against the domain-specific PHM08 metric, improving XGBoost's score by ~60% over its default baseline. |
+- **Teaching Assistant — Data Science & Algorithms**, Vignan University, India · Aug 2024–Mar 2025
+- **Master of Computer Applications**, Vignan University · 2023–2025
+- **Languages:** English C1 · German A2
 
----
-
-### 📫 Reach me
-
-📧 thota.tagore26@gmail.com &nbsp;•&nbsp; 🖇 [linkedin.com/in/tagore-thotakura](https://linkedin.com/in/tagore-thotakura)
+Explore my [portfolio](https://thotatagore26-naidu.github.io/) for more projects, education, and experience.
