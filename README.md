@@ -14,10 +14,14 @@
 
 I'm an AI & Data Science master's student with projects spanning multi-agent workflows, retrieval-augmented generation, predictive maintenance, and causal inference. I focus on practical implementation, careful evaluation, and clear explanations.
 
-| Education | Experience |
-| :--- | :--- |
-| **University of South Bohemia** — second semester, České Budějovice, Czechia | **Teaching Assistant — Data Science & Algorithms** |
-| **Technische Hochschule Deggendorf (DIT)** — first semester, Germany | Vignan University, India · Aug 2024–Mar 2025 |
+**Education**
+
+I am currently in my second semester at the **University of South Bohemia** in České Budějovice, Czechia, after completing my first semester at **Technische Hochschule Deggendorf (DIT)**, Germany.
+
+**Experience**
+
+**Teaching Assistant — Data Science & Algorithms**  
+Vignan University, India · Aug 2024–Mar 2025
 
 ## Selected projects
 
