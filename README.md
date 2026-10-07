@@ -27,49 +27,47 @@ Vignan University, India · Aug 2024–Mar 2025
 
 ### AI Agents & RAG
 
-<table>
-<tr>
-<td width="50%" valign="top">
-<a href="https://github.com/thotatagore26-naidu/multi-agent-data-analyst"><img src="https://raw.githubusercontent.com/thotatagore26-naidu/thotatagore26-naidu/main/banner_multiagent.png" alt="Multi-Agent Data Analysis Assistant" width="100%"></a>
-<h3>Multi-Agent Data Analysis Assistant</h3>
-<p>I built this assistant to make exploring a CSV file easier. You ask a question in plain English, and five agents work together to analyse the data, check the code, and explain the results.</p>
-<p><strong>Key feature:</strong> Critic loop with up to three refinement attempts.</p>
-<p><code>Python</code> <code>LangGraph</code> <code>Streamlit</code></p>
-<a href="https://github.com/thotatagore26-naidu/multi-agent-data-analyst"><strong>Explore repository →</strong></a>
-</td>
-<td width="50%" valign="top">
-<a href="https://github.com/thotatagore26-naidu/drug-interaction-checker"><img src="https://raw.githubusercontent.com/thotatagore26-naidu/thotatagore26-naidu/main/banner_rag.png" alt="Drug Interaction Checker" width="100%"></a>
-<h3>Drug Interaction Checker</h3>
-<p>I wanted to explore how a RAG app could answer questions using evidence from FDA drug labels. This prototype retrieves relevant passages and uses them to support its answers.</p>
-<p><strong>Ragas:</strong> 0.76 faithfulness · 0.79 answer relevancy. Not clinically validated.</p>
-<p><code>LangChain</code> <code>ChromaDB</code> <code>Ragas</code></p>
-<a href="https://github.com/thotatagore26-naidu/drug-interaction-checker"><strong>Explore repository →</strong></a>
-</td>
-</tr>
-</table>
+#### Multi-Agent Data Analysis Assistant
+
+I built this assistant to make exploring a CSV file easier. You ask a question in plain English, and five agents work together to analyse the data, check the code, and explain the results.
+
+**Key feature:** Critic loop with up to three refinement attempts.
+
+`Python` `LangGraph` `Streamlit`
+
+[**Explore repository →**](https://github.com/thotatagore26-naidu/multi-agent-data-analyst)
+
+#### Drug Interaction Checker
+
+I wanted to explore how a RAG app could answer questions using evidence from FDA drug labels. This prototype retrieves relevant passages and uses them to support its answers.
+
+**Ragas:** 0.76 faithfulness · 0.79 answer relevancy. Not clinically validated.
+
+`LangChain` `ChromaDB` `Ragas`
+
+[**Explore repository →**](https://github.com/thotatagore26-naidu/drug-interaction-checker)
 
 ### Machine Learning & Data Science
 
-<table>
-<tr>
-<td width="50%" valign="top">
-<a href="https://github.com/thotatagore26-naidu/predictive-maintenance-rul"><img src="https://raw.githubusercontent.com/thotatagore26-naidu/thotatagore26-naidu/main/banner_predictive.png" alt="Aircraft Engine Remaining Useful Life" width="100%"></a>
-<h3>Aircraft Engine Remaining Useful Life</h3>
-<p>I used NASA C-MAPSS sensor data to estimate how many operating cycles an engine has left. The project compares boosted-tree models and explores how tuning affects their predictions.</p>
-<p><strong>Result:</strong> Approximately 60% improvement in XGBoost's PHM08 score versus its default baseline.</p>
-<p><code>XGBoost</code> <code>CatBoost</code> <code>Optuna</code></p>
-<a href="https://github.com/thotatagore26-naidu/predictive-maintenance-rul"><strong>Explore repository →</strong></a>
-</td>
-<td width="50%" valign="top">
-<a href="https://github.com/thotatagore26-naidu/rossmann-promo-causal-inference"><img src="https://raw.githubusercontent.com/thotatagore26-naidu/thotatagore26-naidu/main/banner_causal.png" alt="Rossmann Promotion Causal Inference" width="100%"></a>
-<h3>Did the Sales Promotion Work?</h3>
-<p>Did a promotion increase sales, or would sales have changed anyway? I explored that question with Difference-in-Differences, checking the assumptions behind the comparison.</p>
-<p><strong>Validation:</strong> Parallel-trends checks and placebo testing.</p>
-<p><code>Python</code> <code>Pandas</code> <code>Statsmodels</code></p>
-<a href="https://github.com/thotatagore26-naidu/rossmann-promo-causal-inference"><strong>Explore repository →</strong></a>
-</td>
-</tr>
-</table>
+#### Aircraft Engine Remaining Useful Life
+
+I used NASA C-MAPSS sensor data to estimate how many operating cycles an engine has left. The project compares boosted-tree models and explores how tuning affects their predictions.
+
+**Result:** Approximately 60% improvement in XGBoost's PHM08 score versus its default baseline.
+
+`XGBoost` `CatBoost` `Optuna`
+
+[**Explore repository →**](https://github.com/thotatagore26-naidu/predictive-maintenance-rul)
+
+#### Did the Sales Promotion Work?
+
+Did a promotion increase sales, or would sales have changed anyway? I explored that question with Difference-in-Differences, checking the assumptions behind the comparison.
+
+**Validation:** Parallel-trends checks and placebo testing.
+
+`Python` `Pandas` `Statsmodels`
+
+[**Explore repository →**](https://github.com/thotatagore26-naidu/rossmann-promo-causal-inference)
 
 ### Computer Vision & Edge AI
 
