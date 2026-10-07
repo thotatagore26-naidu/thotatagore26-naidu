@@ -10,24 +10,24 @@
 
 ---
 
-## About me
+# About me
 
 I'm an AI & Data Science master's student with projects spanning multi-agent workflows, retrieval-augmented generation, predictive maintenance, and causal inference. I focus on practical implementation, careful evaluation, and clear explanations.
 
-**Education**
+## Education
 
 I am currently in my second semester at the **University of South Bohemia** in České Budějovice, Czechia, after completing my first semester at **Technische Hochschule Deggendorf (DIT)**, Germany.
 
-**Experience**
+## Experience
 
 **Teaching Assistant — Data Science & Algorithms**  
 Vignan University, India · Aug 2024–Mar 2025
 
-## Selected projects
+# Selected projects
 
-### AI Agents & RAG
+## AI Agents & RAG
 
-#### Multi-Agent Data Analysis Assistant
+### Multi-Agent Data Analysis Assistant
 
 I built this assistant to make exploring a CSV file easier. You ask a question in plain English, and five agents work together to analyse the data, check the code, and explain the results.
 
@@ -37,7 +37,7 @@ I built this assistant to make exploring a CSV file easier. You ask a question i
 
 [**Explore repository →**](https://github.com/thotatagore26-naidu/multi-agent-data-analyst)
 
-#### Drug Interaction Checker
+### Drug Interaction Checker
 
 I wanted to explore how a RAG app could answer questions using evidence from FDA drug labels. This prototype retrieves relevant passages and uses them to support its answers.
 
@@ -47,9 +47,9 @@ I wanted to explore how a RAG app could answer questions using evidence from FDA
 
 [**Explore repository →**](https://github.com/thotatagore26-naidu/drug-interaction-checker)
 
-### Machine Learning & Data Science
+## Machine Learning & Data Science
 
-#### Aircraft Engine Remaining Useful Life
+### Aircraft Engine Remaining Useful Life
 
 I used NASA C-MAPSS sensor data to estimate how many operating cycles an engine has left. The project compares boosted-tree models and explores how tuning affects their predictions.
 
@@ -59,7 +59,7 @@ I used NASA C-MAPSS sensor data to estimate how many operating cycles an engine 
 
 [**Explore repository →**](https://github.com/thotatagore26-naidu/predictive-maintenance-rul)
 
-#### Did the Sales Promotion Work?
+### Did the Sales Promotion Work?
 
 Did a promotion increase sales, or would sales have changed anyway? I explored that question with Difference-in-Differences, checking the assumptions behind the comparison.
 
@@ -69,19 +69,21 @@ Did a promotion increase sales, or would sales have changed anyway? I explored t
 
 [**Explore repository →**](https://github.com/thotatagore26-naidu/rossmann-promo-causal-inference)
 
-### Computer Vision & Edge AI
+## Computer Vision & Edge AI
 
-#### [Sport Activity Recognition](https://github.com/thotatagore26-naidu/sport-activity-recognition)
+### Sport Activity Recognition
 
 We built a camera demo that recognises basketball shots, cricket batting, tennis swings, and volleyball spikes. Our team trained YOLO11n and deployed it on a Sony IMX500 AI camera with a Raspberry Pi 5, taking the project from labelled images to on-device predictions.
 
-**Reported validation result:** 95.7% mAP@50 before deployment.  
-**Tools:** Python · Ultralytics YOLO11n · OpenCV · Picamera2 · Sony IMX500  
+**Result:** Reported validation mAP@50 of 95.7% before deployment.
+
+`Python` `YOLO11n` `OpenCV` `Picamera2` `Sony IMX500`
+
 **Team:** Tagore Thotakura · [Varsha Palampalli](https://github.com/VarshaPalampalli) · Charuphala Balasubramanian
 
-[Explore the code, training figures, and presentation →](https://github.com/thotatagore26-naidu/sport-activity-recognition)
+[**Explore repository →**](https://github.com/thotatagore26-naidu/sport-activity-recognition)
 
-## Tools I work with
+# Tools I work with
 
 <p>
 <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
