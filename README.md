@@ -32,7 +32,7 @@ Vignan University, India · Aug 2024–Mar 2025
 <td width="50%" valign="top">
 <a href="https://github.com/thotatagore26-naidu/multi-agent-data-analyst"><img src="https://raw.githubusercontent.com/thotatagore26-naidu/thotatagore26-naidu/main/banner_multiagent.png" alt="Multi-Agent Data Analysis Assistant" width="100%"></a>
 <h3>Multi-Agent Data Analysis Assistant</h3>
-<p>Five specialized agents plan, analyze, review, visualize, and explain CSV data through a LangGraph workflow.</p>
+<p>I built this assistant to make exploring a CSV file easier. You ask a question in plain English, and five agents work together to analyse the data, check the code, and explain the results.</p>
 <p><strong>Key feature:</strong> Critic loop with up to three refinement attempts.</p>
 <p><code>Python</code> <code>LangGraph</code> <code>Streamlit</code></p>
 <a href="https://github.com/thotatagore26-naidu/multi-agent-data-analyst"><strong>Explore repository →</strong></a>
@@ -40,7 +40,7 @@ Vignan University, India · Aug 2024–Mar 2025
 <td width="50%" valign="top">
 <a href="https://github.com/thotatagore26-naidu/drug-interaction-checker"><img src="https://raw.githubusercontent.com/thotatagore26-naidu/thotatagore26-naidu/main/banner_rag.png" alt="Drug Interaction Checker" width="100%"></a>
 <h3>Drug Interaction Checker</h3>
-<p>Research RAG prototype that retrieves FDA label information for source-grounded answers about drug interactions.</p>
+<p>I wanted to explore how a RAG app could answer questions using evidence from FDA drug labels. This prototype retrieves relevant passages and uses them to support its answers.</p>
 <p><strong>Ragas:</strong> 0.76 faithfulness · 0.79 answer relevancy. Not clinically validated.</p>
 <p><code>LangChain</code> <code>ChromaDB</code> <code>Ragas</code></p>
 <a href="https://github.com/thotatagore26-naidu/drug-interaction-checker"><strong>Explore repository →</strong></a>
@@ -55,7 +55,7 @@ Vignan University, India · Aug 2024–Mar 2025
 <td width="50%" valign="top">
 <a href="https://github.com/thotatagore26-naidu/predictive-maintenance-rul"><img src="https://raw.githubusercontent.com/thotatagore26-naidu/thotatagore26-naidu/main/banner_predictive.png" alt="Aircraft Engine Remaining Useful Life" width="100%"></a>
 <h3>Aircraft Engine Remaining Useful Life</h3>
-<p>Predicting remaining operating cycles on NASA C-MAPSS with gradient-boosted models and Optuna tuning.</p>
+<p>I used NASA C-MAPSS sensor data to estimate how many operating cycles an engine has left. The project compares boosted-tree models and explores how tuning affects their predictions.</p>
 <p><strong>Result:</strong> Approximately 60% improvement in XGBoost's PHM08 score versus its default baseline.</p>
 <p><code>XGBoost</code> <code>CatBoost</code> <code>Optuna</code></p>
 <a href="https://github.com/thotatagore26-naidu/predictive-maintenance-rul"><strong>Explore repository →</strong></a>
@@ -63,13 +63,25 @@ Vignan University, India · Aug 2024–Mar 2025
 <td width="50%" valign="top">
 <a href="https://github.com/thotatagore26-naidu/rossmann-promo-causal-inference"><img src="https://raw.githubusercontent.com/thotatagore26-naidu/thotatagore26-naidu/main/banner_causal.png" alt="Rossmann Promotion Causal Inference" width="100%"></a>
 <h3>Did the Sales Promotion Work?</h3>
-<p>A Difference-in-Differences study examining promotion effects beyond simple before-and-after comparisons.</p>
+<p>Did a promotion increase sales, or would sales have changed anyway? I explored that question with Difference-in-Differences, checking the assumptions behind the comparison.</p>
 <p><strong>Validation:</strong> Parallel-trends checks and placebo testing.</p>
 <p><code>Python</code> <code>Pandas</code> <code>Statsmodels</code></p>
 <a href="https://github.com/thotatagore26-naidu/rossmann-promo-causal-inference"><strong>Explore repository →</strong></a>
 </td>
 </tr>
 </table>
+
+### Computer Vision & Edge AI
+
+#### [Sport Activity Recognition](https://github.com/thotatagore26-naidu/sport-activity-recognition)
+
+We built a camera demo that recognises basketball shots, cricket batting, tennis swings, and volleyball spikes. Our team trained YOLO11n and deployed it on a Sony IMX500 AI camera with a Raspberry Pi 5, taking the project from labelled images to on-device predictions.
+
+**Reported validation result:** 95.7% mAP@50 before deployment.  
+**Tools:** Python · Ultralytics YOLO11n · OpenCV · Picamera2 · Sony IMX500  
+**Team:** Tagore Thotakura · [Varsha Palampalli](https://github.com/VarshaPalampalli) · Charuphala Balasubramanian
+
+[Explore the code, training figures, and presentation →](https://github.com/thotatagore26-naidu/sport-activity-recognition)
 
 ## Tools I work with
 
