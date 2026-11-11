@@ -3,8 +3,8 @@
 <p align="center">Building AI agents, grounded RAG systems, and machine learning applications.</p>
 <p align="center">
 <a href="https://thotatagore26-naidu.github.io/"><img alt="Explore portfolio" src="https://img.shields.io/badge/PORTFOLIO-Explore_my_work-2563EB?style=for-the-badge"></a>
-<a href="https://www.linkedin.com/in/tagore-thotakura"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge"></a>
-<a href="mailto:thota.tagore26@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-Get_in_touch-475569?style=for-the-badge"></a>
+<a href="https://www.linkedin.com/in/tagoret"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge"></a>
+<a href="mailto:tagorethotakura067@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-Get_in_touch-475569?style=for-the-badge"></a>
 </p>
 <p align="center"><strong>Open to AI/ML & Data Science internships in Germany</strong></p>
 
@@ -12,7 +12,7 @@
 
 # About me
 
-I'm an AI & Data Science master's student with projects spanning multi-agent workflows, retrieval-augmented generation, predictive maintenance, and causal inference. I focus on practical implementation, careful evaluation, and clear explanations.
+I'm an AI & Data Science master's student with projects spanning multi-agent workflows, retrieval-augmented generation, predictive maintenance, computer vision, and causal inference. I focus on practical implementation, careful evaluation, and clear explanations.
 
 ## Education
 
@@ -71,6 +71,16 @@ Did a promotion increase sales, or would sales have changed anyway? I explored t
 
 ## Computer Vision & Edge AI
 
+### Industrial Product Defect Detection & Inspection System
+
+I built a surface-defect classifier for steel images using the NEU Surface Defect Database (six defect classes). It compares a classical OpenCV feature pipeline with a RandomForest against a transfer-learned YOLOv8n-cls model, and tests both under blur, noise and brightness changes.
+
+**Result:** 97.8% accuracy (OpenCV + RandomForest) vs 99.6% (YOLOv8n-cls) on a held-out test split.
+
+`Python` `OpenCV` `Ultralytics YOLOv8` `scikit-learn`
+
+[**Explore repository →**](https://github.com/thotatagore26-naidu/Industrial-Product-Defect-Detection-Inspection-System)
+
 ### Sport Activity Recognition
 
 We built a camera demo that recognises basketball shots, cricket batting, tennis swings, and volleyball spikes. Our team trained YOLO11n and deployed it on a Sony IMX500 AI camera with a Raspberry Pi 5, taking the project from labelled images to on-device predictions.
@@ -83,14 +93,6 @@ We built a camera demo that recognises basketball shots, cricket batting, tennis
 
 [**Explore repository →**](https://github.com/thotatagore26-naidu/sport-activity-recognition)
 
-Industrial Product Defect Detection & Inspection System
-I built a surface-defect classifier for steel images using the NEU Surface Defect Database (six defect classes). It compares a classical OpenCV feature pipeline with a RandomForest against a transfer-learned YOLOv8n-cls model, and tests both under blur, noise and brightness changes.
-
-Result: 97.8% accuracy (OpenCV + RandomForest) vs 99.6% (YOLOv8n-cls) on a held-out test split.
-
-Python OpenCV Ultralytics YOLOv8 scikit-learn
-
-Explore repository →
 # Tools I work with
 
 <p>
@@ -98,6 +100,7 @@ Explore repository →
 <img alt="SQL" src="https://img.shields.io/badge/SQL-336791?style=flat-square">
 <img alt="Pandas" src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white">
 <img alt="Scikit-learn" src="https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white">
+<img alt="OpenCV" src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white">
 <img alt="TensorFlow" src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white">
 <img alt="LangGraph" src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square">
 <img alt="LangChain" src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white">
@@ -106,6 +109,7 @@ Explore repository →
 </p>
 
 **AI & ML:** RAG, ChromaDB, XGBoost, LightGBM, CatBoost  
+**Computer vision:** OpenCV, YOLO  
 **Data & analysis:** NumPy, Matplotlib, Seaborn, Statsmodels  
 **Development:** Jupyter, Linux, Git  
 **Languages:** English C1 · German A2
@@ -113,4 +117,4 @@ Explore repository →
 ---
 
 <p align="center"><strong>Let's connect</strong><br>Interested in AI engineering, machine learning, and data science internship opportunities.</p>
-<p align="center"><a href="https://thotatagore26-naidu.github.io/">Portfolio</a> · <a href="https://www.linkedin.com/in/tagore-thotakura">LinkedIn</a> · <a href="mailto:thota.tagore26@gmail.com">Email</a></p>
+<p align="center"><a href="https://thotatagore26-naidu.github.io/">Portfolio</a> · <a href="https://www.linkedin.com/in/tagoret">LinkedIn</a> · <a href="mailto:tagorethotakura067@gmail.com">Email</a></p>
