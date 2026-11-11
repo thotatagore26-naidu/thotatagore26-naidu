@@ -83,6 +83,14 @@ We built a camera demo that recognises basketball shots, cricket batting, tennis
 
 [**Explore repository →**](https://github.com/thotatagore26-naidu/sport-activity-recognition)
 
+Industrial Product Defect Detection & Inspection System
+I built a surface-defect classifier for steel images using the NEU Surface Defect Database (six defect classes). It compares a classical OpenCV feature pipeline with a RandomForest against a transfer-learned YOLOv8n-cls model, and tests both under blur, noise and brightness changes.
+
+Result: 97.8% accuracy (OpenCV + RandomForest) vs 99.6% (YOLOv8n-cls) on a held-out test split.
+
+Python OpenCV Ultralytics YOLOv8 scikit-learn
+
+Explore repository →
 # Tools I work with
 
 <p>
