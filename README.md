@@ -89,7 +89,7 @@ We built a camera demo that recognises basketball shots, cricket batting, tennis
 
 `Python` `YOLO11n` `OpenCV` `Picamera2` `Sony IMX500`
 
-**Team:** Tagore Thotakura · [Varsha Palampalli](https://github.com/VarshaPalampalli) · Charuphala Balasubramanian
+**Team:** Tagore Thotakura · [Varsha Palampalli](https://github.com/VarshaPalampalli) · [Charuphala Balasubramanian](https://github.com/Charuphalab)
 
 [**Explore repository →**](https://github.com/thotatagore26-naidu/sport-activity-recognition)
 
